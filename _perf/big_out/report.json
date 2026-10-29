@@ -1,0 +1,4240 @@
+{
+  "generated_at": "2026-10-29 22:42:52",
+  "format": "yolo",
+  "images": 1900,
+  "label_files": 1800,
+  "boxes": 4400,
+  "issues_total": 700,
+  "issue_counts": {
+    "COORD_OUT_OF_BOUNDS": 200,
+    "IMAGE_WITHOUT_LABEL": 100,
+    "COORD_NOT_NORMALIZED": 100,
+    "BOX_DEGENERATE": 100,
+    "DUP_BOX": 100,
+    "CLS_OUT_OF_RANGE": 100
+  },
+  "classes": [
+    {
+      "class": "person",
+      "boxes": 900,
+      "images": 800
+    },
+    {
+      "class": "car",
+      "boxes": 1600,
+      "images": 1200
+    },
+    {
+      "class": "helmet",
+      "boxes": 800,
+      "images": 800
+    },
+    {
+      "class": "mask",
+      "boxes": 1000,
+      "images": 700
+    }
+  ],
+  "issues": [
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_000.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_001.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_002.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_003.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_004.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_005.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_006.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_007.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_008.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_009.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_010.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_011.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_012.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_013.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_014.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_015.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_016.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_017.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_018.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_019.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_020.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_021.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_022.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_023.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_024.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_025.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_026.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_027.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_028.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_029.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_030.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_031.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_032.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_033.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_034.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_035.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_036.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_037.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_038.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_039.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_040.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_041.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_042.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_043.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_044.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_045.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_046.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_047.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_048.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_049.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_050.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_051.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_052.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_053.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_054.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_055.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_056.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_057.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_058.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_059.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_060.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_061.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_062.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_063.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_064.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_065.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_066.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_067.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_068.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_069.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_070.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_071.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_072.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_073.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_074.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_075.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_076.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_077.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_078.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_079.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_080.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_081.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_082.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_083.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_084.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_085.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_086.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_087.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_088.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_089.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_090.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_091.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_092.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_093.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_094.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_095.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_096.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_097.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_098.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "_perf\\big\\images/demo_888_099.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_000.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_000.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_001.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_001.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_002.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_002.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_003.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_003.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_004.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_004.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_005.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_005.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_006.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_006.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_007.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_007.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_008.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_008.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_009.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_009.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_010.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_010.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_011.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_011.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_012.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_012.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_013.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_013.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_014.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_014.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_015.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_015.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_016.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_016.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_017.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_017.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_018.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_018.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_019.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_019.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_020.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_020.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_021.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_021.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_022.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_022.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_023.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_023.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_024.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_024.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_025.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_025.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_026.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_026.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_027.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_027.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_028.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_028.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_029.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_029.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_030.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_030.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_031.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_031.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_032.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_032.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_033.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_033.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_034.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_034.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_035.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_035.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_036.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_036.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_037.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_037.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_038.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_038.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_039.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_039.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_040.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_040.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_041.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_041.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_042.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_042.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_043.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_043.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_044.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_044.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_045.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_045.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_046.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_046.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_047.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_047.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_048.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_048.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_049.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_049.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_050.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_050.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_051.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_051.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_052.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_052.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_053.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_053.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_054.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_054.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_055.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_055.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_056.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_056.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_057.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_057.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_058.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_058.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_059.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_059.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_060.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_060.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_061.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_061.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_062.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_062.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_063.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_063.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_064.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_064.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_065.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_065.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_066.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_066.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_067.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_067.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_068.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_068.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_069.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_069.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_070.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_070.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_071.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_071.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_072.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_072.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_073.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_073.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_074.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_074.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_075.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_075.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_076.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_076.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_077.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_077.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_078.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_078.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_079.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_079.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_080.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_080.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_081.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_081.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_082.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_082.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_083.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_083.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_084.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_084.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_085.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_085.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_086.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_086.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_087.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_087.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_088.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_088.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_089.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_089.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_090.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_090.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_091.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_091.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_092.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_092.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_093.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_093.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_094.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_094.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_095.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_095.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_096.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_096.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_097.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_097.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_098.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_098.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "_perf\\big\\labels\\demo_003_099.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_003_099.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_000.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_001.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_002.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_003.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_004.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_005.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_006.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_007.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_008.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_009.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_010.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_011.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_012.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_013.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_014.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_015.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_016.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_017.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_018.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_019.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_020.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_021.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_022.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_023.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_024.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_025.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_026.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_027.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_028.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_029.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_030.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_031.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_032.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_033.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_034.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_035.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_036.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_037.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_038.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_039.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_040.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_041.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_042.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_043.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_044.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_045.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_046.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_047.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_048.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_049.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_050.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_051.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_052.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_053.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_054.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_055.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_056.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_057.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_058.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_059.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_060.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_061.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_062.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_063.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_064.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_065.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_066.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_067.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_068.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_069.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_070.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_071.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_072.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_073.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_074.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_075.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_076.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_077.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_078.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_079.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_080.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_081.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_082.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_083.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_084.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_085.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_086.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_087.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_088.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_089.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_090.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_091.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_092.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_093.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_094.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_095.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_096.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_097.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_098.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "_perf\\big\\labels\\demo_005_099.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_000.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_001.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_002.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_003.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_004.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_005.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_006.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_007.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_008.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_009.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_010.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_011.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_012.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_013.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_014.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_015.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_016.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_017.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_018.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_019.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_020.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_021.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_022.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_023.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_024.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_025.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_026.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_027.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_028.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_029.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_030.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_031.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_032.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_033.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_034.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_035.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_036.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_037.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_038.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_039.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_040.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_041.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_042.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_043.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_044.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_045.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_046.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_047.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_048.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_049.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_050.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_051.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_052.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_053.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_054.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_055.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_056.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_057.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_058.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_059.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_060.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_061.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_062.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_063.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_064.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_065.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_066.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_067.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_068.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_069.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_070.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_071.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_072.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_073.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_074.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_075.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_076.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_077.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_078.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_079.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_080.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_081.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_082.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_083.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_084.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_085.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_086.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_087.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_088.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_089.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_090.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_091.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_092.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_093.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_094.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_095.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_096.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_097.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_098.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "_perf\\big\\labels\\demo_007_099.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_000.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_001.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_002.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_003.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_004.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_005.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_006.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_007.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_008.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_009.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_010.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_011.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_012.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_013.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_014.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_015.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_016.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_017.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_018.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_019.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_020.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_021.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_022.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_023.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_024.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_025.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_026.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_027.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_028.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_029.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_030.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_031.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_032.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_033.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_034.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_035.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_036.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_037.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_038.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_039.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_040.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_041.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_042.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_043.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_044.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_045.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_046.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_047.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_048.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_049.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_050.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_051.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_052.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_053.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_054.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_055.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_056.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_057.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_058.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_059.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_060.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_061.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_062.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_063.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_064.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_065.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_066.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_067.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_068.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_069.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_070.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_071.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_072.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_073.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_074.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_075.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_076.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_077.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_078.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_079.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_080.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_081.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_082.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_083.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_084.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_085.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_086.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_087.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_088.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_089.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_090.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_091.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_092.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_093.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_094.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_095.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_096.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_097.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_098.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "_perf\\big\\labels\\demo_009_099.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_000.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_001.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_002.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_003.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_004.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_005.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_006.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_007.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_008.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_009.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_010.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_011.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_012.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_013.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_014.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_015.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_016.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_017.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_018.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_019.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_020.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_021.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_022.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_023.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_024.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_025.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_026.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_027.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_028.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_029.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_030.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_031.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_032.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_033.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_034.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_035.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_036.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_037.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_038.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_039.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_040.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_041.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_042.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_043.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_044.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_045.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_046.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_047.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_048.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_049.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_050.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_051.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_052.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_053.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_054.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_055.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_056.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_057.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_058.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_059.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_060.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_061.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_062.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_063.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_064.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_065.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_066.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_067.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_068.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_069.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_070.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_071.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_072.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_073.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_074.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_075.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_076.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_077.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_078.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_079.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_080.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_081.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_082.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_083.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_084.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_085.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_086.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_087.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_088.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_089.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_090.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_091.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_092.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_093.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_094.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_095.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_096.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_097.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_098.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "_perf\\big\\labels\\demo_011_099.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    }
+  ]
+}

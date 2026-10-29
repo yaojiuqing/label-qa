@@ -1,0 +1,10 @@
+# 演示数据与报告是脚本生成的，不需要提交
+demo_data/
+demo_output/
+report/
+_voc_test/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
