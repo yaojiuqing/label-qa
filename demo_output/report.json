@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-10-29 22:14:57",
+  "format": "yolo",
+  "images": 19,
+  "label_files": 19,
+  "boxes": 44,
+  "issues_total": 8,
+  "issue_counts": {
+    "COORD_OUT_OF_BOUNDS": 2,
+    "LABEL_WITHOUT_IMAGE": 1,
+    "IMAGE_WITHOUT_LABEL": 1,
+    "COORD_NOT_NORMALIZED": 1,
+    "BOX_DEGENERATE": 1,
+    "DUP_BOX": 1,
+    "CLS_OUT_OF_RANGE": 1
+  },
+  "classes": [
+    {
+      "class": "person",
+      "boxes": 9,
+      "images": 8
+    },
+    {
+      "class": "car",
+      "boxes": 16,
+      "images": 12
+    },
+    {
+      "class": "helmet",
+      "boxes": 8,
+      "images": 8
+    },
+    {
+      "class": "mask",
+      "boxes": 10,
+      "images": 7
+    }
+  ],
+  "issues": [
+    {
+      "level": "error",
+      "code": "LABEL_WITHOUT_IMAGE",
+      "file": "demo_data\\labels/demo_999.txt",
+      "detail": "有标注文件但找不到同名图片"
+    },
+    {
+      "level": "warn",
+      "code": "IMAGE_WITHOUT_LABEL",
+      "file": "demo_data\\images/demo_888.*",
+      "detail": "有图片但没有标注文件（负样本可忽略）"
+    },
+    {
+      "level": "error",
+      "code": "COORD_NOT_NORMALIZED",
+      "file": "demo_data\\labels\\demo_003.txt",
+      "detail": "第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "demo_data\\labels\\demo_003.txt",
+      "detail": "第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+    },
+    {
+      "level": "error",
+      "code": "BOX_DEGENERATE",
+      "file": "demo_data\\labels\\demo_005.txt",
+      "detail": "第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+    },
+    {
+      "level": "warn",
+      "code": "DUP_BOX",
+      "file": "demo_data\\labels\\demo_007.txt",
+      "detail": "第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）"
+    },
+    {
+      "level": "error",
+      "code": "CLS_OUT_OF_RANGE",
+      "file": "demo_data\\labels\\demo_009.txt",
+      "detail": "第 2 行类别 id=9，超出 0~3"
+    },
+    {
+      "level": "warn",
+      "code": "COORD_OUT_OF_BOUNDS",
+      "file": "demo_data\\labels\\demo_011.txt",
+      "detail": "第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
+    }
+  ]
+}

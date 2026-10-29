@@ -1,0 +1,9 @@
+﻿level,code,file,detail
+error,LABEL_WITHOUT_IMAGE,demo_data\labels/demo_999.txt,有标注文件但找不到同名图片
+warn,IMAGE_WITHOUT_LABEL,demo_data\images/demo_888.*,有图片但没有标注文件（负样本可忽略）
+error,COORD_NOT_NORMALIZED,demo_data\labels\demo_003.txt,"第 1 行 坐标疑似不是 0~1 归一化值：cx=120.0, cy=90.0, w=60.0, h=50.0"
+warn,COORD_OUT_OF_BOUNDS,demo_data\labels\demo_003.txt,"第 1 行 框越出图像边界：[90.000, 65.000, 150.000, 115.000]"
+error,BOX_DEGENERATE,demo_data\labels\demo_005.txt,"第 1 行 宽或高 <= 0（w=0.0, h=0.2）"
+warn,DUP_BOX,demo_data\labels\demo_007.txt,第 1 行与第 3 行疑似重复框（同类 3，IoU=1.00 > 0.9）
+error,CLS_OUT_OF_RANGE,demo_data\labels\demo_009.txt,第 2 行类别 id=9，超出 0~3
+warn,COORD_OUT_OF_BOUNDS,demo_data\labels\demo_011.txt,"第 2 行 框越出图像边界：[0.830, 0.350, 1.130, 0.650]"
